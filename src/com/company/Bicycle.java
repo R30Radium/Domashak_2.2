@@ -1,6 +1,6 @@
 package com.company;
 
-public class Bicycle extends Transport implements Serve {
+public class Bicycle extends Transport implements Serve, Wheelable, Serviceable {
 
     public Bicycle(String modelName, int wheelCount) {
         super(modelName, wheelCount);

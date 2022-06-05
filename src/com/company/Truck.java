@@ -1,6 +1,6 @@
 package com.company;
 
-public class Truck extends Transport implements Serve {
+public class Truck extends Transport implements Serve, Wheelable, Engineable, Serviceable {
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
