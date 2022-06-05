@@ -1,4 +1,6 @@
-package com.company;
+package com.company.Classes;
+
+import com.company.Intes.Serviceable;
 
 public class ServiceStation {
 

@@ -1,4 +1,10 @@
-package com.company;
+package com.company.Classes;
+
+import com.company.Classes.Transport;
+import com.company.Intes.Engineable;
+import com.company.Intes.Serve;
+import com.company.Intes.Serviceable;
+import com.company.Intes.Wheelable;
 
 public class Truck extends Transport implements Serve, Wheelable, Engineable, Serviceable {
 

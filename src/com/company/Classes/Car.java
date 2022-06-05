@@ -1,6 +1,10 @@
-package com.company;
+package com.company.Classes;
 
-public class Car extends Transport implements Serviceable, Wheelable, Engineable,  {
+import com.company.Intes.Engineable;
+import com.company.Intes.Serviceable;
+import com.company.Intes.Wheelable;
+
+public class Car extends Transport implements Serviceable, Wheelable, Engineable {
 
     public Car(String modelName, int wheelCount) {
         super(modelName, wheelCount);

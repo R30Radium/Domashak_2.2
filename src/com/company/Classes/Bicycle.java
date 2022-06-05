@@ -1,4 +1,8 @@
-package com.company;
+package com.company.Classes;
+
+import com.company.Intes.Serve;
+import com.company.Intes.Serviceable;
+import com.company.Intes.Wheelable;
 
 public class Bicycle extends Transport implements Serve, Wheelable, Serviceable {
 
